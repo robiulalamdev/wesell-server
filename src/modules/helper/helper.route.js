@@ -1,7 +1,8 @@
 const express = require("express");
-const { sendMessage } = require("./helper.conroller");
+const { sendMessage, sendAppointment } = require("./helper.conroller");
 const router = express.Router();
 
-router.post("/send-message", sendMessage);
+router.post("/appointment", sendAppointment);
+router.post("/contact", sendMessage);
 
 module.exports = { helperRoutes: router };

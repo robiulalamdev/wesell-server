@@ -13,6 +13,7 @@ const VARIABLES = {
   // Mail User
   MAIL_USER: process.env.MAIL_USER,
   MAIL_PASS: process.env.MAIL_PASS,
+  RECEIVE_MAIL: process.env.RECEIVE_MAIL,
 };
 
 module.exports = VARIABLES;
